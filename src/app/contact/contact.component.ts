@@ -12,4 +12,9 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
   }
 
+  thankYou(){
+    alert("Thank you for your response ! I'll revert back to you soon.");
+    location.reload();
+  }
+
 }
